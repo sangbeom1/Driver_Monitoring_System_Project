@@ -38,9 +38,9 @@ detect = dlib.get_frontal_face_detector()
 path = './haar/'
 predict = dlib.shape_predictor(path + 'shape_predictor_68_face_landmarks.dat')
 pygame.mixer.init()
-sound_siren = pygame.mixer.Sound("/Users/bagsangbeom/PycharmProjects/DMS/sound/siren.wav")
-sound_drowsy_warning = pygame.mixer.Sound("/Users/bagsangbeom/PycharmProjects/DMS/sound/drowsy_warning.wav")
-sound_drowsy_detection = pygame.mixer.Sound("/Users/bagsangbeom/PycharmProjects/DMS/sound/drowsy_detection.wav")
+sound_siren = pygame.mixer.Sound("/Users/bagsangbeom/PycharmProjects/DMS_Project/sound/siren.wav")
+sound_drowsy_warning = pygame.mixer.Sound("/Users/bagsangbeom/PycharmProjects/DMS_Project/sound/drowsy_warning.wav")
+sound_drowsy_detection = pygame.mixer.Sound("/Users/bagsangbeom/PycharmProjects/DMS_Project/sound/drowsy_detection.wav")
 facial_processor = FacialProcessor()
 
 
@@ -107,7 +107,7 @@ recording_status_text = "Record ON"
 
 # == YOLO ==============================================================================================================
 #Load a model
-model = YOLO('/Users/bagsangbeom/PycharmProjects/DMS/weights/best (12월 16일).pt')  # build a new model from YAML
+model = YOLO('/Users/bagsangbeom/PycharmProjects/DMS_Project/weights/best (12월 16일).pt')  # build a new model from YAML
 
 # confidence 임계치
 DETECT_CONFIDENCE_THRESHOLD = 0.65

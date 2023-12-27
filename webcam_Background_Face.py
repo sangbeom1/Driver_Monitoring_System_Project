@@ -5,7 +5,7 @@ show_webcam = True
 max_people = 1
 
 # Image to swap face with
-exorcist_image_url = "https://facetec.com/wp-content/uploads/2019/06/3D-Front.png"
+exorcist_image_url = "https://media.sketchfab.com/models/19a3001d053948d982126692396115c3/thumbnails/61850e1a2745428280a320f41a18cff3/1d09a93634ac4e339ba0a38912f2c20f.jpeg"
 # Initialize ExorcistFace class
 draw_exorcist = ExorcistFace(exorcist_image_url, show_webcam, max_people)
 
