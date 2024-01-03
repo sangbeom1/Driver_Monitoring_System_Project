@@ -223,6 +223,7 @@ while True:
 						capture_status_text = "Capture ON" if capture_enabled else "Capture OFF"
 						# 캡처하고 파일 경로를 반환받는다.
 						capture_path = save_frame(frame)
+						
 						print(f"Capture image saved to: {capture_path}")
 					else:
 						capture_status_text = "Capture OFF"
